@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(12, 16, 20);
+  font:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  color: rgba(245, 245, 245, 1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.navbar-logo img {
+  filter: invert(0); /* remove if you had this */
+  color: white;
+  width: 103px; /* Instagram logo standard width */
+  height: 29px;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.login {
+  background-color: rgb(75, 95, 250);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 16px;
+  border: none;
+  font-weight: bold;
+}
+
+.sign-up {
+  color: rgb(130, 158, 250);
+  border-radius: 14px;
+  background-color:;
+  border: none;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0px auto;
+  padding-top: 30px;
+  width: 420px;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+}
+.profile-image {
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.profile-name-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-name-row h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-fullname,
+.profile-bio {
+  margin: 0;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 20px;
+}
